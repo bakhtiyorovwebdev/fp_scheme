@@ -1,0 +1,27 @@
+;; Done
+
+(module sn-utils racket
+
+  (provide sn-dict-ks-vs
+           sn-line->entry
+           sn-list->dict
+           )
+
+ 
+  ;; utils
+  ;; [k] [v] -> [(k,v)]
+  ;; Easy
+  (define (sn-dict-ks-vs ks vs)  
+    (map cons ks vs))
+
+  ;; Medium
+  ;; str -> (a,[a])
+  (define (sn-line->entry ln)
+    (map (λ (ln) (string->symbol ln)) (string-split ln)))
+
+  ;; [(a,b)] -> [(a,b)] 
+  ;; Easy
+  (define (sn-list->dict es)
+    es)
+  
+  )

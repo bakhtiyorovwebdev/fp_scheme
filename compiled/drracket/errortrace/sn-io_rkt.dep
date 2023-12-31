@@ -1,0 +1,1 @@
+("8.8" ta6nt ("469fddb64793f7ad8273a5f814a245051234d091" . "f1736324777501f5efc744bed1d6407c2926c51d") #"C:\\Users\\user\\Desktop\\sn-scheme-template\\sn-utils.rkt" (collects #"drracket" #"private" #"drracket-errortrace-key.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt"))
